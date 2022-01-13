@@ -4,3 +4,5 @@ def PatternCount(Text, Pattern):
         if Text[i:i+len(Pattern)] == Pattern:
             count = count+1
     return count
+
+print (PatternCount("CGCG", "CGCGATACGTTACATACATGATAGACCGCGCGCGATCATATCGCGATTATC"))
